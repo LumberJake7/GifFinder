@@ -1,0 +1,51 @@
+#Search {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  width: 400px;
+  border-radius: 10px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  margin-left: 10px;
+}
+.center-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+}
+.newCol {
+  flex-basis: calc(33.333% - 20px);
+  margin-bottom: 20px;
+}
+html {
+  background-image: url("https://wallpapers.com/images/hd/blank-background-cq1lw4r7mte3btvt.jpg"); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

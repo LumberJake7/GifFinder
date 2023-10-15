@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gif Searcher</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body
+    style="background-image: https://wallpapers.com/images/hd/blank-background-cq1lw4r7mte3btvt.jpg "
+  >
+    <div id="Search">
+      <h1>GIPHY PARTY!</h1>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter a GIF keyword" />
+        <button onclick="searchGif()">Search</button>
+        <button onclick="removeGifs()">Remove Gifs</button>
+      </div>
+    </div>
+    <div id="gifContainer" class="row"></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="test.js"></script>
+  </body>
+</html>
